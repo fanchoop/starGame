@@ -1,5 +1,4 @@
 import React from 'react';
-import colors from '../colors';
 
 const PlayNumber = (props) => (
   <button
@@ -10,5 +9,13 @@ const PlayNumber = (props) => (
     {props.number}
   </button>
 );
+
+// Color Theme
+const colors = {
+  available: 'lightgray',
+  used: 'lightgreen',
+  wrong: 'lightcoral',
+  candidate: 'deepskyblue',
+};
 
 export default PlayNumber;
